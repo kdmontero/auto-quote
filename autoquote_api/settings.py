@@ -37,9 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'products',
-    'inventory',
-    'quotations',
 ]
 
 MIDDLEWARE = [
@@ -52,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'auto_quote.urls'
+ROOT_URLCONF = 'autoquote_api.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'auto_quote.wsgi.application'
+WSGI_APPLICATION = 'autoquote_api.wsgi.application'
 
 
 # Database
