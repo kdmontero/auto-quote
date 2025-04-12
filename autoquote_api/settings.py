@@ -45,7 +45,6 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     'autoquote_api.products',
-    'autoquote_api.inventories',
     'autoquote_api.quotations',
 ]
 
